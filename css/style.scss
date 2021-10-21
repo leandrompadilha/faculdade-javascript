@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+    color: #3d3d3d;
+    height: max-content;
+    overflow-y: hidden;
+}
+
+nav {
+    font-size: 16px;
+    .logo {
+        width: auto;
+        height: 2.5rem;
+    }
+    li {
+        img {
+            height: 1em;
+        }
+    }
+}
+
+main {
+    min-width: 280px;
+    width: 100vw;
+    height: 95vh;
+    .img-thumbnail {
+        max-height: 300px;
+    }
+    .logo {
+        min-width: 150px;
+        min-height: max-content;
+        max-width: 150px;
+        max-height: max-content;
+    }
+    button {
+        width: max-content;
+    }
+    .resultado {
+        button {
+            width: max-content;
+            height: max-content;
+        }
+    }
+}
+
+.venceu {
+    min-width: 280px;
+    width: 100%;
+    height: 90vh;
+    img {
+        max-width: 250px;
+    }
+}
